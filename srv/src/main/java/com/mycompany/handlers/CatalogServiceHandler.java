@@ -74,3 +74,8 @@ public class CatalogServiceHandler implements EventHandler {
 // Validates price cannot be negative
 // Automatically sets status based on stock
 // Logs all operations
+
+// Task 2: Create handler that:
+// Checks stock availability before order
+// Updates book stock after order
+// Prevents negative quantity orders
